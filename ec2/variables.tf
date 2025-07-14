@@ -1,14 +1,14 @@
 variable "ami_id" {
   type        = string
-  description = "AMI ID to use for EC2"
+  description = "AMI ID to use for the EC2 instance"
 }
 
 variable "instance_type" {
   type        = string
-  description = "EC2 instance type"
+  description = "Instance type for EC2"
 }
 
 variable "instance_name" {
   type        = string
-  description = "Name tag for the EC2 instance"
+  description = "Name to assign to the EC2 instance"
 }
