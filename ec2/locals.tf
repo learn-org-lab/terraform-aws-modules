@@ -2,7 +2,7 @@ locals {
   common_tags = {
     Environment = "dev"
     Owner       = "team-devops"
-    Project     = "terraform-lab"
+    Project     = "terraform-learning-lab"
     CreatedBy   = "terraform"
   }
 }
