@@ -12,3 +12,8 @@ variable "instance_name" {
   type        = string
   description = "Name to assign to the EC2 instance"
 }
+variable "tags" {
+  type        = map(string)
+  description = "Tags to apply to the EC2 instance"
+  default     = {}
+}
